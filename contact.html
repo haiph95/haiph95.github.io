@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--[if lt IE 9]>
+	<script src="js/html5.js" type="text/javascript"></script>
+	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js" type="text/javascript"></script>
+	<![endif]-->	
+	<title>Liên hệ - Hải Phạm</title>
+	<link rel="stylesheet" href="css/form.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/lightbox.css">
+</head>
+<body>
+	<div id="wrap">
+		<header id="header">
+			<div class="container">
+				<button type="button" class="navbar-toggle" id="nav-toggle">
+					<span class="sr-only">Hiện menu</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<h1 class="logo"><a href="index.html" title="Phạm Hải">Phạm Hải</a></h1>
+				<nav id="menu-top">
+					<ul class="nav-list">
+						<li>
+							<a href="javascript:void(0)">Danh sách</a>
+							<ul class="nav-dropdown">
+								<li><a href="#">Danh sách 1</a></li>
+								<li><a href="#">Danh sách 2</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="javascript:void(0)">Chuyên mục</a>
+							<ul class="nav-dropdown">
+								<li><a href="javascript:void(0)">Tiêu Đề 1</a></li>
+								<li><a href="javascript:void(0)">Tiêu Đề 1</a></li>
+								<li><a href="javascript:void(0)">Tiêu Đề 1</a></li>
+								<li><a href="javascript:void(0)">Tiêu Đề 1</a></li>
+								<li><a href="javascript:void(0)">Tiêu Đề 1</a></li>
+							</ul>
+						</li>
+					</ul>
+					<form action="" method="post" accept-charset="utf-8" class="form-control">
+						<div class="search">
+							<input type="search" name="s" value="" placeholder="Nhập từ khóa..." required class="s">
+							<div class="button-search">
+									<button type="submit"><span class="dashicons dashicons-search"></span></button>
+								</div>
+						</div>
+					</form>
+				</nav>
+			</div>
+			<div class="clear"></div>
+			<div class="breadcrum">
+				<div class="container">
+					<ul class="breadcrum-list">
+						<li><a href="#">Trang chủ</a></li>
+						<li><a href="#">Liên hệ</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="clear"></div>
+		</header><!-- /header -->
+		<div class="clear"></div>
+		<section id="main-content" class="container">
+			<main id="main">
+				<article id="single">
+					<header id="single-header">
+						<h1 class="single-title">
+							Liện hệ với chúng tôi
+						</h1>
+						<!-- <div class="post-meta">
+							<div class="category">
+								<span class="dashicons dashicons-category"></span>
+								<a href="" title="Chuyên mục 1">Chuyên mục 1</a>,
+								<a href="" title="Chuyên mục 1">Chuyên mục 1</a>
+							</div>
+							<div class="time-user-comment">
+								<div class="time"><span class="dashicons dashicons-clock"></span> 2 ngày trước</div>
+								<div class="user"><span class="dashicons dashicons-admin-users"></span> Admin</div>
+								<div class="comment"><span class="dashicons dashicons-admin-comments"></span> 1 bình luận</div>
+							</div>
+						</div> -->
+					</header><!-- /single-header -->
+					<div class="clear"></div>
+					<div class="single-contact pt">
+						<div class="row">
+							<form class="col s12">
+								<div class="row">
+									<div class="input-field col s6">
+										<input id="ten" name="ten" type="text" class="validate" required>
+										<label for="ten">Tên</label>
+									</div>
+									<div class="input-field col s6">
+										<input type="email" id="email" name="email" class="validate" required>
+										<label for="email">Email</label>
+									</div>
+								</div>
+								<div class="row">
+									<div class="input-field col s12">
+										<textarea id="noidung" name="noidung" class="materialize-textarea"></textarea>
+								        <label for="noidung">Nội dung</label>
+								        <div class="errors"></div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="input-field col s12">
+										<select required id="subject">
+											<option value="" disabled >Chọn một</option>
+											<option value="1" selected>Góp ý</option>
+											<option value="2">Báo lỗi</option>
+											<option value="3">Quảng cáo</option>
+											<option value="4">Khác</option>
+										</select>
+										<label for="subject">Chủ đề</label><!-- 
+										<select id="mucdich">
+											<option value="" disabled>Chọn một</option>
+											<option value="1">Góp ý</option>
+											<option value="2">Báo lỗi</option>
+											<option value="3">Quảng cáo</option>
+											<option value="4">Khác</option>
+										</select>
+										<label>Chủ đề</label> -->
+									</div>
+								</div>
+								<div class="row">
+									<div class="col s12">
+										<button id="submit" class="right btn" type="submit">Gửi</button>
+									</div>
+								</div>
+							</form>
+						</div>
+						<div class="row">
+							<div class="col s12">
+								<p>Nếu bạn có vấn đề gì cần trao đổi riêng với mình, bạn có thể liên hệ với mình qua email bằng cách điền vào form</p>
+								<p>Nếu bạn cần hỗ trợ những vấn đề liên quan tới nội dung bài viết của mình, cách tốt nhất hãy bình luận bên dưới bài viết đó. Bởi vì câu trả lời dành cho bạn ở đó có thể sẽ có ích với người khác.</p>
+							</div>
+						</div>
+					</div>
+					<!-- <div class="single-content">
+						<div class="single-expert">
+							<p>OneDrive một tiện ích được tích hợp trong Windows 10, giúp cho bạn dễ dàng backup dữ liệu như tài liệu , hình ảnh và nhiều dữ liệu quan trọng khác. Trong bài viết này blog sẽ hướng dẫn bạn cách để chụp ảnh màn hình trong Windows 10 và ảnh được tự động lưu […]</p>
+						</div>
+						<div class="single-main">
+							<h3>TỰ ĐỘNG LƯU ẢNH CHỤP MÀN HÌNH LÊN ONEDRIVE TRÊN WINDOWS 10</h3>
+							<p>Để cài đặt ảnh chụp màn hình tự động lưu lên OneDrive, kích chuột phải vào biểu tượng OneDrive trên taskbar và chọn cài đặt.</p>
+							<div class="image-caption"><a data-lightbox="image-1" data-title="Chụp ảnh màn hình và tự động lưu trên OneDrive Windows 10" href="img/57106ae76d723.png"><img src="img/57106ae76d723.png" alt="Chụp ảnh màn hình và tự động lưu trên OneDrive Windows 10" width="605" height="284"></a>
+							    <p class="text-caption">Chụp ảnh màn hình và tự động lưu trên OneDrive Windows 10</p>
+							</div>
+							<p>Sau đó chọn tab&nbsp;“<strong>Auto save</strong>”&nbsp;dưới Screenshots, bạn tích vào “<strong><em>Automatically save screenshots I capture to OneDrive”&nbsp;</em></strong>và sau đó chọn OK.</p>
+							<p>Cách đơn giản để chụp ảnh màn hình là bạn sử dụng phím<strong> ALT + PrtScn.</strong>
+							</p>
+							<p>Khi bạn thao tác chụp ảnh màn hình, máy tính sẽ thông báo rằng ảnh của bạn đã được thêm vào OneDrive.</p>
+							<div class="image-caption"><a data-lightbox="image-1" data-title="Chụp ảnh màn hình và tự động lưu trên OneDrive Windows 10" href="img/57106c12a131a.png"><img src="img/57106c12a131a.png" alt="Chụp ảnh màn hình và tự động lưu trên OneDrive Windows 10" width="528" height="237"></a>
+							    <p class="text-caption">Chụp ảnh màn hình và tự động lưu trên OneDrive Windows 10</p>
+							</div>
+							<p>Nếu bạn muốn tìm ảnh từ One Drive, bạn tìm đến thư mục&nbsp;<em>Pictures &gt; Screenshots&nbsp;</em>với tên ảnh là ngày tháng năm bạn chụp.</p>
+							<div class="image-caption"><a data-lightbox="image-1" data-title="Chụp ảnh màn hình và tự động lưu trên OneDrive Windows 10" href="img/57106d27581d3.png"><img src="img/57106d27581d3.png" alt="Chụp ảnh màn hình và tự động lưu trên OneDrive Windows 10" width="582" height="316"></a>
+							    <p class="text-caption">Chụp ảnh màn hình và tự động lưu trên OneDrive Windows 10</p>
+							</div>
+							<p>Mong rằng bài viết có ích với các bạn.</p>
+							<p>&nbsp;</p>
+							<p>&nbsp;</p>
+						</div>
+					</div> -->
+				</article>
+			</main>
+			<aside id="sidebar">
+				<div class="row">
+					<h4 class="p10"><span class="dashicons dashicons-admin-post"></span> Xem nhiều</h4>
+					<nav class="top-view">
+						<ul>
+							<li>
+								<div class="left">
+									<a href="" title=""><img src="img/25b5309dbc0d383ede7b90a67ff29ae6-50-50.png" alt=""></a>
+								</div>
+								<div>
+									<h3><a href="" title="Hướng dẫn cài đặt và sử dụng System Restore Point">Hướng dẫn cài đặt và sử dụng System Restore Point</a></h3>
+								</div>
+								<div class="meta-post">
+									<div class="left"><span class="dashicons dashicons-calendar"></span> 11/9/2014</div>
+									<div class="left p10"><span class="dashicons dashicons-visibility"></span> 88.888</div>
+								</div>
+								<div class="clear"></div>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<div class="row">
+					<h4 class="p10"><span class="dashicons dashicons-admin-comments"></span> Phản hồi</h4>
+					<nav class="top-view">
+						
+					</nav>
+				</div>
+				<div class="row">
+					<h4 class="p10"><span class="dashicons dashicons-tag"></span> Từ khóa</h4>
+				</div>
+			</aside>
+		</section>
+		<div class="clear"></div>
+		<footer id="footer">
+			<div class="container">
+				<div class="left">&copy; 2015 - Hải Phạm</div>
+				<div class="right">
+					<a href="contact.html" title="Liên Hệ">Liên Hệ</a> -
+					<a href="about.html" title="Giới thiệu">Giới thiệu</a>
+				</div>
+			</div>
+		</footer>
+	</div>
+<script src="js/jquery-1.12.3.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/lightbox.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<script src="js/main.js" type="text/javascript"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+	  $('select').material_select();
+	});
+</script>
+</body>
+</html>

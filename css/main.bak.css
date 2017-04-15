@@ -1,0 +1,137 @@
+﻿/* Xóa css mặc định của trình duyệt */
+@import url("reset.css");
+@import url("dashicons.css");
+/* @import url("style.css"); */
+
+
+/* Style cho header */
+#header {background: #3C9E40;width: 100%;}
+#header > .container {line-height: 55px;}
+#header a {color: #fff;}
+h1.logo, h3.logo {float: left;margin-right: 20px;height: 100%;}
+
+#menu-top {height: 100%;float: left;}
+/* 
+.menu-top {display: block;}
+.menu-top > li {float: left;}
+.menu-top > li > a {padding: 0 15px;font-size: 13px;display: block;text-transform: capitalize;}
+.menu-top > li > a:after {content: "\f140"; font-family: dashicons;vertical-align: bottom;}
+.menu-top .button-dropdown {position: relative;}
+.menu-top > li:hover, .menu-top > li .active {background: rgba(255,255,255,.3);}
+.menu-top .dropdown-menu {display: none;position: absolute;min-width: 200px;top: 100%;z-index: 100;left: 0;font-size: 14px;background: #fff;box-shadow: 1px 2px 1px rgba(158, 158, 158, 0.82);border: 1px solid #ccc;}
+.menu-top .dropdown-menu li {background: #fff;min-width: 200px;line-height: 30px;padding: 5px 0;border-bottom: 2px solid #fff;}
+.menu-top .dropdown-menu li:hover {border-bottom: 2px solid #3C9E40;background: rgba(218, 218, 218, 0.3);box-shadow: 0 0 2px #3C9E40;-webkit-box-shadow: 0 0 2px #3C9E40;-o-box-shadow: 0 0 2px #3C9E40;-moz-box-shadow: 0 0 2px #3C9E40;}
+.menu-top .dropdown-menu li a {color: #333 !important;margin: 0 15px;} 
+*/
+
+nav > ul > li {float: left;position: relative;}
+nav > ul > li:hover, nav > ul > li:active {background: rgba(255,255,255,.3);}
+nav > ul > li > a {padding: 0 15px;font-size: 13px;display: block;text-transform: capitalize;}
+nav > ul > li > a:after {content: "\f140"; font-family: dashicons;vertical-align: bottom;}
+nav ul li ul {display: none;position: absolute;min-width: 200px;top: 100%;z-index: 100;left: 0;font-size: 14px;background: #fff;box-shadow: 1px 2px 1px rgba(158, 158, 158, 0.82);border: 1px solid #ccc;}
+nav ul li ul li {background: #fff;min-width: 200px;line-height: 30px;padding: 5px 0;border-bottom: 2px solid #fff;}
+nav ul li ul li:hover {border-bottom: 2px solid #3C9E40;background: rgba(218, 218, 218, 0.3);box-shadow: 0 0 2px #3C9E40;-webkit-box-shadow: 0 0 2px #3C9E40;-o-box-shadow: 0 0 2px #3C9E40;-moz-box-shadow: 0 0 2px #3C9E40;}
+nav ul li ul li a {color: #333 !important;margin: 0 15px;} 
+.nav-mobile {position: absolute;display: none;top: 0;right: 0;height: 80%;width: 80%;}
+#nav-toggle {position: absolute;left: 18px;top: 22px;cursor: pointer;padding: 10px 35px 16px 0;}
+#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {content: ""; display: block;cursor: pointer;border-radius: 1px;width: 35px;height: 5px;background: #fff;transition: all 300ms ease-in-out;}
+#nav-toggle span:before {top: -10px;}
+#nav-toggle span:after {bottom: -10px;}
+#nav-toggle.active span {background-color: transparent;}
+#nav-toggle.active span:before, #nav-toggle.active span:after {top: 0;}
+#nav-toggle.active span:before {transform: rotate(45deg);}
+#nav-toggle.active span:after {transform: rotate(-45deg);}
+.search {display: inline-table;}
+.s {padding: 10px;border: none;}
+.button-search {vertical-align: middle;}
+button {background: #FFF;border: none;padding: 9px 9px 8px;vertical-align: text-bottom;}
+button:hover {background: #f4f4f4;}
+/* Hết phần header */
+
+/* Phần content */
+#content-main {padding: 10px 0;}
+#sidebar, #main {float: left;margin: 10px 0;}
+#main {width: 75%;background: #fafafa;}
+h3 {border-bottom: 2px solid #c2c2c2;text-transform: capitalize;font-size: 14px;font-weight: normal;line-height: 40px;cursor: pointer;}
+article {background: #fff;padding: 10px 10px 5px;display: inline-block;}
+article + article {border-top: 1px solid #eee;}
+h1#post-title {font-size: 15px;color: #222;font-weight: normal;}
+h1#post-title a {color: #222;}
+.post-info-images {margin-top: 10px;}
+.post-info-images img {margin: 5px 0;border: 1px solid #fff}
+.post-info-images img:hover {border: 1px solid #3C9E40;}
+.content-post {display: table;font-size: 14px;}
+.meta-content {font-size: 13px;}
+.post-meta {margin-top: 15px;}
+/* Sidebar */
+#sidebar {width: 25%;padding: 0 0 0 7.5px;}
+h4 {font-weight: normal;font-size: 14px;}
+.fix {background: #fafafa}
+.fix + .fix {margin-top: 10px;}
+.top-view li {padding: 10px;background: #fff;border: 1px solid #fff;}
+.top-view li:hover {border: 1px solid #3C9E40;box-shadow: 0 0 2px #3C9E40;-webkit-box-shadow: 0 0 2px #3C9E40;-o-box-shadow: 0 0 2px #3C9E40;-moz-box-shadow: 0 0 2px #3C9E40;}
+.top-view li + li {border-top: 1px solid #eee;}
+.top-view img {padding: 5px 5px 3px 0;}
+h2 {font-size: 12px;font-weight: normal;line-height: 16px;}
+.meta-post {font-size: 10px;}
+/* Hết content */
+
+/* Phần Css của footer */
+#footer {background: rgba(0,0,0,.7);width: 100%;height: 40px;line-height: 40px;color: #fff;}
+/* Kết thúc */
+
+nav#breadcrum {background: #fff;width: 100%;}
+nav#breadcrum p {color: #969696;font-size: 13px;}
+/* Kết thúc phần header */
+
+
+
+/* Extra Css */
+.active {display: block;}
+.container {width: 81.666667%;margin: auto;}
+.clear{clear: both;}
+.left {float: left;}
+.right {float: right;}
+.dashicons {font-size: 18px;color: #909090;vertical-align: middle;}
+.dashicons:hover {color: #3C9E40;}
+.p10 {padding-left: 10px;}
+img {vertical-align: middle;}
+a, a:link, a:visited {text-decoration: none;color: #333;}
+a:hover {color: #3C9E40;}
+body {color: #333;font: 12px/24px Hiragino Sans GB, Microsoft Yahei, SimSun, Helvetica, Arial, Sans-serif;background: #F0F0F5;}
+#wrap {width: 100%;position: relative;overflow: hidden;}
+/* End extra */
+
+/* Xử lý responsive */
+@media all and (min-width: 1025px) {
+	.container {width: 1170px;}
+}
+@media all and (max-width: 1024px) {
+	.container {width: 980px;}
+}
+@media all and (max-width: 768px) {
+	.container {width: 750px;}
+	#sidebar {display: none;}
+	#main {width: auto;}
+	#nav-toggle {display: none;}
+}
+@media all and (max-width: 800px) {
+	nav {width: 100%;padding: 70px 0 150px;}
+	nav ul {display: none;}
+	nav ul li {float: none;}
+	nav ul li a {padding: 15px;line-height: 20px;}
+	nav ul li ul li a {padding-left: 30px;}
+	.nav-dropdown {position: static;}
+}
+@media all and (min-width: 800px;) {
+	.nav-list {display: block !important;}
+}
+@media all and (max-width: 600px;) {
+	
+}
+@media all and (max-width: 480px;) {
+	
+}
+@media all and (max-width: 320px) {
+	
+}
